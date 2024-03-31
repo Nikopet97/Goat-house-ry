@@ -1,0 +1,59 @@
+body {
+    background-image: url(Images/background);
+    background-size: cover;
+}
+li {
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 25px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #696969;
+    position: sticky;
+    top: 0%;
+    border-radius: 25px;
+}
+li {
+    float: left;
+    position: sticky;
+    top: 0%;
+    border-radius: 25px;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    position: sticky;
+    top: 0%;
+}
+li a:hover {background-color: #111;
+    position: sticky;
+    border-radius: 25px;
+}
+h1 {
+    font-size: 90px;
+    color: #3d3d3dbb;
+    text-align: center;
+}
+h3 {
+    color: rgb(28, 28, 28);
+    text-align: center;
+}
+h4 {
+    font-size: larger;
+    font-style: italic;
+}
+div.mycontainer {
+    width: 100%;
+    overflow: auto;
+}
+div.mycontainer div {
+    width: 20%;
+    float: left;
+}
